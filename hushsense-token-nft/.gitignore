@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# local env / secrets
+.env
+
+# logs and lockfiles
+npm-debug.log*
+package-lock.json
+yarn.lock
+RAW_TO_DER.js
