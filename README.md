@@ -71,6 +71,31 @@ project-root/
 - IPFS-based metadata storage
 - Automated minting and distribution
 
+## 🏛 Architecture Diagram
+
+The runtime architecture (Mobile → Backend → Smart Contract → HTS) is shown below.
+
+```mermaid
+flowchart LR
+  Mobile["Mobile App - Flutter"]
+  Backend["Backend / Operator"]
+  Contract["HushSenseManager - EVM Contract"]
+  HTS["Hedera Token Service - HTS"]
+  Recipient["Recipient - Hedera account / NFT"]
+
+  Mobile -->|1 submit measurement & account id| Backend
+  Backend -->|2 decide reward and call owner-only| Contract
+  Contract -->|3 associate token to recipient| HTS
+  Contract -->|4 mint token to recipient| HTS
+  HTS -->|5 ledger updates balance or mint NFT| Recipient
+  Recipient -->|6 optional query balance| Backend
+```
+
+## 🔐 Environment / .env.example
+
+An example `.env.example` is included at the repository root with sections for each sub-project and the variables they require. Copy it to `.env` and fill real values before running scripts.
+
+
 ## 🛠️ Development Setup
 
 ### Prerequisites
