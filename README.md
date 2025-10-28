@@ -202,11 +202,6 @@ flowchart LR
   Recipient -->|6 optional query balance| Backend
 ```
 
-## 🔐 Environment / .env.example
-
-An example `.env.example` is included at the repository root with sections for each sub-project and the variables they require. Copy it to `.env` and fill real values before running scripts.
-
-
 ## 🛠️ Development Setup
 
 ### Prerequisites
