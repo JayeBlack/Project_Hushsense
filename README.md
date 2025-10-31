@@ -21,6 +21,15 @@ HushSense is a revolutionary **DePIN (Decentralized Physical Infrastructure Netw
 - Manager Smart Contract: [0.0.10047928](https://hashscan.io/mainnet/contract/0.0.10047928)  
 - HTS NFT Collection: [0.0.10050668](https://hashscan.io/mainnet/token/0.0.10050668)
 
+
+## 🪪 Certifications
+- [Elkanah Ametsitsi NFT Certificate](https://explore.hashpack.app/nft/0.0.3872504/13840)
+- [Jeremiah Boateng NFT Certificate](https://explore.hashpack.app/nft/0.0.3872504/12045)
+
+## 📊 Pitch Deck
+You can view the HushSense Pitch Deck here:  
+👉 [HushSense Pitch Deck on Gamma](https://gamma.app/docs/HushSense-613y9aunl3375or)
+
 ## 🎯 Vision & Mission
 
 ### **Vision**
