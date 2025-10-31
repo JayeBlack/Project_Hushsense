@@ -4,6 +4,10 @@ Project: HushSense
 
 Track: AI & DePIN
 
+## Landing Page
+You can view our landing page here:  
+👉 [HushSense Landing Page](https://hushsense.vercel.app/)
+
 > **The World's Largest Decentralized Urban Noise Mapping Platform**
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.24.3-blue.svg)](https://flutter.dev)
